@@ -1,41 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Habesha GeoAnalytics</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<section class="card">
+    <h2>Who We Are</h2>
 
-<body>
+    <p>
+        Habesha GeoAnalytics is a geospatial consulting, training, and research platform
+        dedicated to providing high-quality Geographic Information System (GIS),
+        Remote Sensing, Surveying, and Spatial Data Analytics solutions.
+    </p>
 
-<header>
-  <h1>Habesha GeoAnalytics</h1>
-  <p>GIS | Remote Sensing | Spatial Data Solutions</p>
-</header>
+    <p>
+        We support students, researchers, government institutions, NGOs, and private
+        organizations through spatial analysis, mapping, satellite image processing,
+        geospatial database development, and professional training.
+    </p>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="services.html">Services</a>
-  <a href="contact.html">Contact</a>
-</nav>
-
-<div class="container">
-
-  <div class="card">
-    <h2>Welcome</h2>
-    <p>We provide professional GIS and Remote Sensing solutions for research, education, and industry.</p>
-  </div>
-
-  <div class="card">
-    <h2>Our Focus</h2>
-    <p>Spatial analysis, map production, environmental monitoring, and geospatial training.</p>
-  </div>
-
-</div>
-
-<footer>
-  © 2026 Habesha GeoAnalytics
-</footer>
-
-</body>
-</html>
+    <p>
+        Our mission is to transform geographic data into actionable information for
+        decision-making, sustainable development, environmental monitoring, and
+        infrastructure planning.
+    </p>
+</section>
