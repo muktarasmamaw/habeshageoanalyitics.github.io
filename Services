@@ -1,41 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Services - Habesha GeoAnalytics</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<header>
-  <h1>Our Services</h1>
-</header>
-
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="services.html">Services</a>
-  <a href="contact.html">Contact</a>
-</nav>
-
-<div class="container">
-
-  <div class="card">
-    <h2>GIS Analysis</h2>
-    <p>Spatial analysis, mapping, and geoprocessing services.</p>
-  </div>
-
-  <div class="card">
-    <h2>Remote Sensing</h2>
-    <p>Image classification, NDVI analysis, and satellite data processing.</p>
-  </div>
-
-  <div class="card">
-    <h2>Training</h2>
-    <p>GIS and RS training for students and professionals.</p>
-  </div>
-
-</div>
-
-</body>
-</html>
+<p>
+We perform spatial analysis using GIS technologies to identify patterns,
+relationships, and trends within geographic data. Services include suitability
+analysis, network analysis, site selection, and spatial modeling.
+</p>
