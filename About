@@ -1,31 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>About - Habesha GeoAnalytics</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<h2>About Habesha GeoAnalytics</h2>
 
-<body>
+<p>
+Habesha GeoAnalytics is a professional geospatial platform focused on
+GIS, Remote Sensing, Surveying Engineering, and Spatial Data Science.
+The platform was established to provide practical geospatial solutions,
+capacity building, and educational resources for Ethiopia and beyond.
+</p>
 
-<header>
-  <h1>About Us</h1>
-</header>
+<h3>Our Vision</h3>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="services.html">Services</a>
-  <a href="contact.html">Contact</a>
-</nav>
+<p>
+To become a leading geospatial analytics and training center in Africa,
+empowering organizations and communities through innovative spatial technologies.
+</p>
 
-<div class="container">
+<h3>Our Mission</h3>
 
-  <div class="card">
-    <h2>Who We Are</h2>
-    <p>Habesha GeoAnalytics is a GIS and Remote Sensing focused initiative delivering spatial intelligence solutions.</p>
-  </div>
-
-</div>
-
-</body>
-</html>
+<p>
+To deliver accurate geospatial information, professional training,
+and research support that improves planning, resource management,
+and evidence-based decision making.
+</p>
