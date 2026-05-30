@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Habesha GeoAnalytics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Habesha GeoAnalytics</h1>
+  <p>GIS | Remote Sensing | Spatial Data Solutions</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Welcome</h2>
+    <p>We provide professional GIS and Remote Sensing solutions for research, education, and industry.</p>
+  </div>
+
+  <div class="card">
+    <h2>Our Focus</h2>
+    <p>Spatial analysis, map production, environmental monitoring, and geospatial training.</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Habesha GeoAnalytics
+</footer>
+
+</body>
+</html>
