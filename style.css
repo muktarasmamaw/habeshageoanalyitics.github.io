@@ -1,9 +1,6 @@
 /* =========================
-   HABESHA GEOANALYTICS
-   PROFESSIONAL WEBSITE CSS
-========================= */
-
-*{
+   HABESHA GEOANALYTICS*
+{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -29,7 +26,7 @@ body{
 }
 
 .logo{
-    width:70px;
+    width:20px;
     height:auto;
 }
 
