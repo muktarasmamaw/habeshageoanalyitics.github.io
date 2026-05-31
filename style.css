@@ -1,173 +1,157 @@
 /* =========================
-   HABESHA GEOANALYTICS
-   PROFESSIONAL WEBSITE CSS
+   GLOBAL STYLES
 ========================= */
-
-/* RESET */
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0b1220;
+    color: #e5e7eb;
+    line-height: 1.6;
 }
 
-/* BODY */
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background:#f5f7fa;
-    color:#333;
-    line-height:1.6;
+/* =========================
+   HEADER (HERO SECTION)
+========================= */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #0b1220);
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 3px solid #2563eb;
 }
 
-/* HEADER */
-.header-container{
-    background:#0f172a;
-    color:white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:20px;
-    padding:20px;
+header h1 {
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 1px;
 }
 
-.logo{
-    width:70px;
-    height:auto;
+header p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #cbd5e1;
 }
 
-/* TITLE */
-.header-container h1{
-    font-size:2rem;
+/* =========================
+   NAVIGATION
+========================= */
+nav {
+    background: #111827;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #1f2937;
 }
 
-.header-container p{
-    color:#cbd5e1;
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
-/* NAVIGATION */
-nav{
-    background:#1e3a8a;
-    text-align:center;
-    padding:15px;
+nav a:hover {
+    color: #38bdf8;
+    transform: scale(1.05);
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
-    transition:0.3s;
+/* =========================
+   MAIN CONTENT CONTAINER
+========================= */
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
 }
 
-nav a:hover{
-    color:#93c5fd;
+/* =========================
+   SECTION HEADINGS
+========================= */
+h2 {
+    color: #60a5fa;
+    margin-bottom: 15px;
 }
 
-/* MAIN CONTAINER */
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    padding:40px 0;
+h3 {
+    color: #93c5fd;
 }
 
-/* CARDS */
-.card{
-    background:white;
-    padding:25px;
-    margin:20px 0;
-    border-radius:12px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
-    transition:0.3s;
+/* =========================
+   CARDS (IMPORTANT LOOK)
+========================= */
+.card {
+    background: #111827;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.15);
+    border-left: 4px solid #2563eb;
+    transition: 0.3s;
 }
 
-.card:hover{
-    transform:translateY(-5px);
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
 }
 
-/* GRID (for services/projects) */
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
+/* =========================
+   SERVICES LIST STYLE
+========================= */
+ul {
+    padding-left: 20px;
 }
 
-/* PROJECT IMAGES */
-.project-image{
-    width:100%;
-    border-radius:10px;
-    margin-bottom:10px;
+li {
+    margin-bottom: 8px;
 }
 
-/* BUTTON */
-.btn{
-    display:inline-block;
-    background:#2563eb;
-    color:white;
-    padding:12px 25px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
-    transition:0.3s;
+/* =========================
+   BUTTON STYLE (optional)
+========================= */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 0.3s;
 }
 
-.btn:hover{
-    background:#1d4ed8;
+.btn:hover {
+    background: #38bdf8;
 }
 
-/* CONTACT FORM */
-form{
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+/* =========================
+   FOOTER
+========================= */
+footer {
+    background: #0f172a;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #94a3b8;
 }
 
-input,
-textarea{
-    width:100%;
-    padding:12px;
-    margin-bottom:15px;
-    border:1px solid #ccc;
-    border-radius:6px;
-}
-
-/* BUTTON IN FORM */
-button{
-    background:#2563eb;
-    color:white;
-    border:none;
-    padding:12px 20px;
-    border-radius:6px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#1d4ed8;
-}
-
-/* FOOTER */
-footer{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:30px;
-    margin-top:50px;
-}
-
-footer p{
-    margin:5px 0;
-}
-
-/* MOBILE RESPONSIVE */
-@media(max-width:768px){
-
-    .header-container{
-        flex-direction:column;
-        text-align:center;
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
     }
 
-    nav a{
-        display:block;
-        margin:10px 0;
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container {
+        width: 92%;
     }
 }
